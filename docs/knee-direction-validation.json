@@ -1,0 +1,28 @@
+{
+  "before": {
+    "left": {
+      "opening_alignment": -0.7936725879160123,
+      "minimum_alignment": -0.9999926792947078,
+      "backward_pose_count": 172
+    },
+    "right": {
+      "opening_alignment": -0.8242203711865044,
+      "minimum_alignment": -0.9834468832976434,
+      "backward_pose_count": 165
+    }
+  },
+  "after": {
+    "left": {
+      "opening_alignment": 1.0,
+      "minimum_alignment": 0.900717339094546,
+      "backward_pose_count": 0
+    },
+    "right": {
+      "opening_alignment": 1.0,
+      "minimum_alignment": 0.7824778155589324,
+      "backward_pose_count": 0
+    }
+  },
+  "max_racket_center_change_m": 0.0,
+  "max_arm_position_change_m": 0.0
+}

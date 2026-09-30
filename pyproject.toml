@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anima-motion-lab"
+version = "0.5.0"
+description = "Inspectable motion generation and animation tools for LLMs"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+physics = ["mujoco==3.3.7"]
+reference = ["numpy>=1.24,<3", "scipy>=1.10,<2"]
+video = ["numpy>=1.24,<3", "Pillow>=9,<12"]
+
+[project.scripts]
+anima = "anima.__main__:main"
+
+[tool.setuptools.package-data]
+anima = ["package.json", "web/*", "web/vendor/*", "data/*", "render/*"]

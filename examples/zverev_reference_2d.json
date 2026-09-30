@@ -1,0 +1,2184 @@
+{
+  "schema_version": 1,
+  "kind": "human_racket_reference_2d",
+  "name": "Alexander Zverev reference serve",
+  "height": 1.98,
+  "mass": 90,
+  "playback_slowdown": 10,
+  "release_time": 11.9,
+  "impact_time": 27.08,
+  "view_direction": [
+    -0.9647415561089504,
+    0.14826970636920342,
+    0.21746223600816508
+  ],
+  "source": {
+    "file": "52102.webm",
+    "segment_seconds": [
+      6,
+      33
+    ],
+    "performer": "Alexander Zverev",
+    "processing": "Manual screen-space tracing, camera-pan compensation, constrained 3-D lifting; no motion capture from another performer.",
+    "sha256": "42221b08378a2f94b7514ab6a43f1f6454bffe1d8634759d02c31d451ecce18b",
+    "depth_is_estimated": true,
+    "playback_speed_is_estimated": true
+  },
+  "landmarks": [
+    {
+      "time": 6,
+      "points": {
+        "pelvis": [
+          790,
+          666
+        ],
+        "left_shoulder": [
+          853,
+          448
+        ],
+        "right_shoulder": [
+          735,
+          460
+        ],
+        "head": [
+          799,
+          350
+        ],
+        "left_elbow": [
+          888,
+          545
+        ],
+        "left_wrist": [
+          950,
+          606
+        ],
+        "right_elbow": [
+          773,
+          574
+        ],
+        "right_wrist": [
+          873,
+          640
+        ],
+        "left_knee": [
+          857,
+          800
+        ],
+        "left_ankle": [
+          975,
+          930
+        ],
+        "right_knee": [
+          708,
+          811
+        ],
+        "right_ankle": [
+          700,
+          935
+        ],
+        "racket_head": [
+          1040,
+          610
+        ]
+      }
+    },
+    {
+      "time": 8,
+      "points": {
+        "pelvis": [
+          787,
+          663
+        ],
+        "left_shoulder": [
+          851,
+          419
+        ],
+        "right_shoulder": [
+          732,
+          441
+        ],
+        "head": [
+          796,
+          326
+        ],
+        "left_elbow": [
+          892,
+          544
+        ],
+        "left_wrist": [
+          951,
+          648
+        ],
+        "right_elbow": [
+          779,
+          566
+        ],
+        "right_wrist": [
+          857,
+          642
+        ],
+        "left_knee": [
+          852,
+          798
+        ],
+        "left_ankle": [
+          974,
+          930
+        ],
+        "right_knee": [
+          702,
+          812
+        ],
+        "right_ankle": [
+          696,
+          933
+        ],
+        "racket_head": [
+          1038,
+          705
+        ]
+      }
+    },
+    {
+      "time": 9.5,
+      "points": {
+        "pelvis": [
+          794,
+          661
+        ],
+        "left_shoulder": [
+          855,
+          411
+        ],
+        "right_shoulder": [
+          734,
+          437
+        ],
+        "head": [
+          795,
+          324
+        ],
+        "left_elbow": [
+          928,
+          490
+        ],
+        "left_wrist": [
+          1006,
+          565
+        ],
+        "right_elbow": [
+          773,
+          562
+        ],
+        "right_wrist": [
+          849,
+          638
+        ],
+        "left_knee": [
+          855,
+          800
+        ],
+        "left_ankle": [
+          976,
+          931
+        ],
+        "right_knee": [
+          699,
+          812
+        ],
+        "right_ankle": [
+          695,
+          934
+        ],
+        "racket_head": [
+          1038,
+          704
+        ]
+      }
+    },
+    {
+      "time": 10.5,
+      "points": {
+        "pelvis": [
+          798,
+          659
+        ],
+        "left_shoulder": [
+          859,
+          391
+        ],
+        "right_shoulder": [
+          734,
+          437
+        ],
+        "head": [
+          791,
+          323
+        ],
+        "left_elbow": [
+          948,
+          414
+        ],
+        "left_wrist": [
+          1043,
+          453
+        ],
+        "right_elbow": [
+          773,
+          557
+        ],
+        "right_wrist": [
+          835,
+          634
+        ],
+        "left_knee": [
+          860,
+          802
+        ],
+        "left_ankle": [
+          978,
+          932
+        ],
+        "right_knee": [
+          700,
+          812
+        ],
+        "right_ankle": [
+          694,
+          934
+        ],
+        "racket_head": [
+          1026,
+          705
+        ]
+      }
+    },
+    {
+      "time": 11.5,
+      "points": {
+        "pelvis": [
+          810,
+          656
+        ],
+        "left_shoulder": [
+          866,
+          371
+        ],
+        "right_shoulder": [
+          737,
+          439
+        ],
+        "head": [
+          788,
+          327
+        ],
+        "left_elbow": [
+          939,
+          354
+        ],
+        "left_wrist": [
+          1031,
+          317
+        ],
+        "right_elbow": [
+          765,
+          557
+        ],
+        "right_wrist": [
+          819,
+          646
+        ],
+        "left_knee": [
+          870,
+          806
+        ],
+        "left_ankle": [
+          987,
+          929
+        ],
+        "right_knee": [
+          702,
+          811
+        ],
+        "right_ankle": [
+          695,
+          934
+        ],
+        "racket_head": [
+          970,
+          703
+        ]
+      }
+    },
+    {
+      "time": 12.5,
+      "points": {
+        "pelvis": [
+          829,
+          664
+        ],
+        "left_shoulder": [
+          883,
+          348
+        ],
+        "right_shoulder": [
+          750,
+          455
+        ],
+        "head": [
+          801,
+          333
+        ],
+        "left_elbow": [
+          939,
+          266
+        ],
+        "left_wrist": [
+          1000,
+          202
+        ],
+        "right_elbow": [
+          779,
+          581
+        ],
+        "right_wrist": [
+          850,
+          666
+        ],
+        "left_knee": [
+          923,
+          806
+        ],
+        "left_ankle": [
+          997,
+          927
+        ],
+        "right_knee": [
+          706,
+          811
+        ],
+        "right_ankle": [
+          695,
+          936
+        ],
+        "racket_head": [
+          992,
+          727
+        ]
+      }
+    },
+    {
+      "time": 13.5,
+      "points": {
+        "pelvis": [
+          846,
+          677
+        ],
+        "left_shoulder": [
+          903,
+          342
+        ],
+        "right_shoulder": [
+          766,
+          468
+        ],
+        "head": [
+          811,
+          345
+        ],
+        "left_elbow": [
+          948,
+          242
+        ],
+        "left_wrist": [
+          979,
+          171
+        ],
+        "right_elbow": [
+          789,
+          583
+        ],
+        "right_wrist": [
+          865,
+          667
+        ],
+        "left_knee": [
+          963,
+          807
+        ],
+        "left_ankle": [
+          1000,
+          932
+        ],
+        "right_knee": [
+          709,
+          820
+        ],
+        "right_ankle": [
+          690,
+          934
+        ],
+        "racket_head": [
+          1004,
+          746
+        ]
+      }
+    },
+    {
+      "time": 14.5,
+      "points": {
+        "pelvis": [
+          868,
+          681
+        ],
+        "left_shoulder": [
+          916,
+          357
+        ],
+        "right_shoulder": [
+          775,
+          475
+        ],
+        "head": [
+          819,
+          353
+        ],
+        "left_elbow": [
+          925,
+          250
+        ],
+        "left_wrist": [
+          919,
+          142
+        ],
+        "right_elbow": [
+          785,
+          589
+        ],
+        "right_wrist": [
+          854,
+          671
+        ],
+        "left_knee": [
+          991,
+          809
+        ],
+        "left_ankle": [
+          1004,
+          931
+        ],
+        "right_knee": [
+          746,
+          825
+        ],
+        "right_ankle": [
+          686,
+          934
+        ],
+        "racket_head": [
+          980,
+          762
+        ]
+      }
+    },
+    {
+      "time": 15.5,
+      "points": {
+        "pelvis": [
+          883,
+          681
+        ],
+        "left_shoulder": [
+          910,
+          373
+        ],
+        "right_shoulder": [
+          766,
+          475
+        ],
+        "head": [
+          812,
+          364
+        ],
+        "left_elbow": [
+          914,
+          253
+        ],
+        "left_wrist": [
+          899,
+          145
+        ],
+        "right_elbow": [
+          740,
+          593
+        ],
+        "right_wrist": [
+          731,
+          650
+        ],
+        "left_knee": [
+          996,
+          802
+        ],
+        "left_ankle": [
+          997,
+          934
+        ],
+        "right_knee": [
+          769,
+          820
+        ],
+        "right_ankle": [
+          679,
+          933
+        ],
+        "racket_head": [
+          849,
+          704
+        ]
+      }
+    },
+    {
+      "time": 16.5,
+      "points": {
+        "pelvis": [
+          902,
+          683
+        ],
+        "left_shoulder": [
+          931,
+          380
+        ],
+        "right_shoulder": [
+          783,
+          483
+        ],
+        "head": [
+          825,
+          372
+        ],
+        "left_elbow": [
+          922,
+          266
+        ],
+        "left_wrist": [
+          895,
+          160
+        ],
+        "right_elbow": [
+          739,
+          560
+        ],
+        "right_wrist": [
+          727,
+          646
+        ],
+        "left_knee": [
+          1005,
+          804
+        ],
+        "left_ankle": [
+          988,
+          933
+        ],
+        "right_knee": [
+          799,
+          826
+        ],
+        "right_ankle": [
+          702,
+          932
+        ],
+        "racket_head": [
+          792,
+          665
+        ]
+      }
+    },
+    {
+      "time": 17.5,
+      "points": {
+        "pelvis": [
+          919,
+          692
+        ],
+        "left_shoulder": [
+          948,
+          381
+        ],
+        "right_shoulder": [
+          800,
+          495
+        ],
+        "head": [
+          841,
+          374
+        ],
+        "left_elbow": [
+          938,
+          267
+        ],
+        "left_wrist": [
+          905,
+          165
+        ],
+        "right_elbow": [
+          718,
+          559
+        ],
+        "right_wrist": [
+          703,
+          626
+        ],
+        "left_knee": [
+          1011,
+          813
+        ],
+        "left_ankle": [
+          977,
+          936
+        ],
+        "right_knee": [
+          827,
+          839
+        ],
+        "right_ankle": [
+          741,
+          934
+        ],
+        "racket_head": [
+          728,
+          638
+        ]
+      }
+    },
+    {
+      "time": 18.5,
+      "points": {
+        "pelvis": [
+          937,
+          698
+        ],
+        "left_shoulder": [
+          965,
+          397
+        ],
+        "right_shoulder": [
+          817,
+          508
+        ],
+        "head": [
+          858,
+          388
+        ],
+        "left_elbow": [
+          947,
+          281
+        ],
+        "left_wrist": [
+          918,
+          178
+        ],
+        "right_elbow": [
+          728,
+          556
+        ],
+        "right_wrist": [
+          687,
+          591
+        ],
+        "left_knee": [
+          1013,
+          817
+        ],
+        "left_ankle": [
+          962,
+          938
+        ],
+        "right_knee": [
+          851,
+          844
+        ],
+        "right_ankle": [
+          773,
+          935
+        ],
+        "racket_head": [
+          711,
+          556
+        ]
+      }
+    },
+    {
+      "time": 19.5,
+      "points": {
+        "pelvis": [
+          947,
+          716
+        ],
+        "left_shoulder": [
+          976,
+          410
+        ],
+        "right_shoulder": [
+          830,
+          524
+        ],
+        "head": [
+          872,
+          397
+        ],
+        "left_elbow": [
+          949,
+          293
+        ],
+        "left_wrist": [
+          922,
+          191
+        ],
+        "right_elbow": [
+          730,
+          554
+        ],
+        "right_wrist": [
+          674,
+          563
+        ],
+        "left_knee": [
+          1020,
+          834
+        ],
+        "left_ankle": [
+          928,
+          940
+        ],
+        "right_knee": [
+          861,
+          854
+        ],
+        "right_ankle": [
+          814,
+          937
+        ],
+        "racket_head": [
+          692,
+          494
+        ]
+      }
+    },
+    {
+      "time": 20.5,
+      "points": {
+        "pelvis": [
+          950,
+          716
+        ],
+        "left_shoulder": [
+          978,
+          410
+        ],
+        "right_shoulder": [
+          829,
+          518
+        ],
+        "head": [
+          875,
+          389
+        ],
+        "left_elbow": [
+          950,
+          289
+        ],
+        "left_wrist": [
+          928,
+          180
+        ],
+        "right_elbow": [
+          707,
+          527
+        ],
+        "right_wrist": [
+          654,
+          514
+        ],
+        "left_knee": [
+          1016,
+          836
+        ],
+        "left_ankle": [
+          897,
+          943
+        ],
+        "right_knee": [
+          870,
+          859
+        ],
+        "right_ankle": [
+          844,
+          938
+        ],
+        "racket_head": [
+          694,
+          420
+        ]
+      }
+    },
+    {
+      "time": 21.5,
+      "points": {
+        "pelvis": [
+          951,
+          710
+        ],
+        "left_shoulder": [
+          976,
+          402
+        ],
+        "right_shoulder": [
+          831,
+          510
+        ],
+        "head": [
+          871,
+          379
+        ],
+        "left_elbow": [
+          957,
+          278
+        ],
+        "left_wrist": [
+          933,
+          172
+        ],
+        "right_elbow": [
+          721,
+          527
+        ],
+        "right_wrist": [
+          652,
+          478
+        ],
+        "left_knee": [
+          1015,
+          832
+        ],
+        "left_ankle": [
+          896,
+          942
+        ],
+        "right_knee": [
+          894,
+          854
+        ],
+        "right_ankle": [
+          869,
+          940
+        ],
+        "racket_head": [
+          705,
+          337
+        ]
+      }
+    },
+    {
+      "time": 22.5,
+      "points": {
+        "pelvis": [
+          948,
+          691
+        ],
+        "left_shoulder": [
+          974,
+          374
+        ],
+        "right_shoulder": [
+          829,
+          482
+        ],
+        "head": [
+          871,
+          351
+        ],
+        "left_elbow": [
+          967,
+          256
+        ],
+        "left_wrist": [
+          938,
+          137
+        ],
+        "right_elbow": [
+          728,
+          511
+        ],
+        "right_wrist": [
+          716,
+          405
+        ],
+        "left_knee": [
+          1006,
+          817
+        ],
+        "left_ankle": [
+          902,
+          933
+        ],
+        "right_knee": [
+          946,
+          842
+        ],
+        "right_ankle": [
+          868,
+          940
+        ],
+        "racket_head": [
+          747,
+          276
+        ]
+      }
+    },
+    {
+      "time": 23.5,
+      "points": {
+        "pelvis": [
+          948,
+          665
+        ],
+        "left_shoulder": [
+          981,
+          340
+        ],
+        "right_shoulder": [
+          838,
+          454
+        ],
+        "head": [
+          868,
+          324
+        ],
+        "left_elbow": [
+          1001,
+          221
+        ],
+        "left_wrist": [
+          975,
+          115
+        ],
+        "right_elbow": [
+          741,
+          483
+        ],
+        "right_wrist": [
+          710,
+          350
+        ],
+        "left_knee": [
+          1003,
+          804
+        ],
+        "left_ankle": [
+          926,
+          922
+        ],
+        "right_knee": [
+          957,
+          809
+        ],
+        "right_ankle": [
+          882,
+          932
+        ],
+        "racket_head": [
+          761,
+          191
+        ]
+      }
+    },
+    {
+      "time": 24.5,
+      "points": {
+        "pelvis": [
+          950,
+          616
+        ],
+        "left_shoulder": [
+          1024,
+          307
+        ],
+        "right_shoulder": [
+          828,
+          397
+        ],
+        "head": [
+          902,
+          277
+        ],
+        "left_elbow": [
+          1100,
+          327
+        ],
+        "left_wrist": [
+          1134,
+          202
+        ],
+        "right_elbow": [
+          733,
+          426
+        ],
+        "right_wrist": [
+          742,
+          313
+        ],
+        "left_knee": [
+          987,
+          754
+        ],
+        "left_ankle": [
+          908,
+          905
+        ],
+        "right_knee": [
+          936,
+          781
+        ],
+        "right_ankle": [
+          854,
+          914
+        ],
+        "racket_head": [
+          846,
+          243
+        ]
+      }
+    },
+    {
+      "time": 25.5,
+      "points": {
+        "pelvis": [
+          936,
+          547
+        ],
+        "left_shoulder": [
+          1041,
+          346
+        ],
+        "right_shoulder": [
+          843,
+          302
+        ],
+        "head": [
+          936,
+          232
+        ],
+        "left_elbow": [
+          1039,
+          424
+        ],
+        "left_wrist": [
+          1151,
+          386
+        ],
+        "right_elbow": [
+          757,
+          299
+        ],
+        "right_wrist": [
+          830,
+          304
+        ],
+        "left_knee": [
+          949,
+          693
+        ],
+        "left_ankle": [
+          897,
+          844
+        ],
+        "right_knee": [
+          891,
+          701
+        ],
+        "right_ankle": [
+          852,
+          854
+        ],
+        "racket_head": [
+          874,
+          443
+        ]
+      }
+    },
+    {
+      "time": 26,
+      "points": {
+        "pelvis": [
+          927,
+          543
+        ],
+        "left_shoulder": [
+          1044,
+          389
+        ],
+        "right_shoulder": [
+          882,
+          258
+        ],
+        "head": [
+          960,
+          241
+        ],
+        "left_elbow": [
+          1008,
+          446
+        ],
+        "left_wrist": [
+          1112,
+          445
+        ],
+        "right_elbow": [
+          824,
+          187
+        ],
+        "right_wrist": [
+          776,
+          253
+        ],
+        "left_knee": [
+          953,
+          708
+        ],
+        "left_ankle": [
+          901,
+          844
+        ],
+        "right_knee": [
+          883,
+          714
+        ],
+        "right_ankle": [
+          855,
+          848
+        ],
+        "racket_head": [
+          769,
+          432
+        ]
+      }
+    },
+    {
+      "time": 26.5,
+      "points": {
+        "pelvis": [
+          920,
+          550
+        ],
+        "left_shoulder": [
+          1031,
+          388
+        ],
+        "right_shoulder": [
+          985,
+          254
+        ],
+        "head": [
+          1003,
+          258
+        ],
+        "left_elbow": [
+          995,
+          442
+        ],
+        "left_wrist": [
+          1110,
+          432
+        ],
+        "right_elbow": [
+          957,
+          132
+        ],
+        "right_wrist": [
+          825,
+          112
+        ],
+        "left_knee": [
+          953,
+          720
+        ],
+        "left_ankle": [
+          910,
+          844
+        ],
+        "right_knee": [
+          879,
+          716
+        ],
+        "right_ankle": [
+          855,
+          847
+        ],
+        "racket_head": [
+          695,
+          220
+        ]
+      }
+    },
+    {
+      "time": 27,
+      "points": {
+        "pelvis": [
+          914,
+          556
+        ],
+        "left_shoulder": [
+          1008,
+          431
+        ],
+        "right_shoulder": [
+          1019,
+          247
+        ],
+        "head": [
+          1017,
+          305
+        ],
+        "left_elbow": [
+          993,
+          441
+        ],
+        "left_wrist": [
+          1106,
+          378
+        ],
+        "right_elbow": [
+          1019,
+          121
+        ],
+        "right_wrist": [
+          1010,
+          -13
+        ],
+        "left_knee": [
+          979,
+          716
+        ],
+        "left_ankle": [
+          922,
+          838
+        ],
+        "right_knee": [
+          881,
+          735
+        ],
+        "right_ankle": [
+          855,
+          845
+        ],
+        "racket_head": [
+          1011,
+          -187
+        ]
+      }
+    },
+    {
+      "time": 27.5,
+      "points": {
+        "pelvis": [
+          913,
+          556
+        ],
+        "left_shoulder": [
+          991,
+          439
+        ],
+        "right_shoulder": [
+          1025,
+          310
+        ],
+        "head": [
+          1013,
+          309
+        ],
+        "left_elbow": [
+          994,
+          437
+        ],
+        "left_wrist": [
+          1095,
+          358
+        ],
+        "right_elbow": [
+          1083,
+          184
+        ],
+        "right_wrist": [
+          1150,
+          32
+        ],
+        "left_knee": [
+          997,
+          708
+        ],
+        "left_ankle": [
+          941,
+          829
+        ],
+        "right_knee": [
+          882,
+          735
+        ],
+        "right_ankle": [
+          850,
+          832
+        ],
+        "racket_head": [
+          1248,
+          -117
+        ]
+      }
+    },
+    {
+      "time": 28,
+      "points": {
+        "pelvis": [
+          918,
+          556
+        ],
+        "left_shoulder": [
+          994,
+          442
+        ],
+        "right_shoulder": [
+          1050,
+          312
+        ],
+        "head": [
+          1023,
+          324
+        ],
+        "left_elbow": [
+          1008,
+          438
+        ],
+        "left_wrist": [
+          1090,
+          382
+        ],
+        "right_elbow": [
+          1142,
+          215
+        ],
+        "right_wrist": [
+          1247,
+          115
+        ],
+        "left_knee": [
+          1006,
+          708
+        ],
+        "left_ankle": [
+          952,
+          831
+        ],
+        "right_knee": [
+          868,
+          738
+        ],
+        "right_ankle": [
+          837,
+          830
+        ],
+        "racket_head": [
+          1391,
+          128
+        ]
+      }
+    },
+    {
+      "time": 28.5,
+      "points": {
+        "pelvis": [
+          924,
+          559
+        ],
+        "left_shoulder": [
+          1016,
+          442
+        ],
+        "right_shoulder": [
+          1113,
+          281
+        ],
+        "head": [
+          1073,
+          299
+        ],
+        "left_elbow": [
+          1018,
+          439
+        ],
+        "left_wrist": [
+          1095,
+          413
+        ],
+        "right_elbow": [
+          1201,
+          237
+        ],
+        "right_wrist": [
+          1280,
+          274
+        ],
+        "left_knee": [
+          1008,
+          724
+        ],
+        "left_ankle": [
+          986,
+          842
+        ],
+        "right_knee": [
+          842,
+          719
+        ],
+        "right_ankle": [
+          798,
+          815
+        ],
+        "racket_head": [
+          1355,
+          443
+        ]
+      }
+    },
+    {
+      "time": 29,
+      "points": {
+        "pelvis": [
+          938,
+          570
+        ],
+        "left_shoulder": [
+          1039,
+          461
+        ],
+        "right_shoulder": [
+          1136,
+          295
+        ],
+        "head": [
+          1092,
+          305
+        ],
+        "left_elbow": [
+          1055,
+          467
+        ],
+        "left_wrist": [
+          1123,
+          479
+        ],
+        "right_elbow": [
+          1214,
+          338
+        ],
+        "right_wrist": [
+          1272,
+          413
+        ],
+        "left_knee": [
+          1024,
+          742
+        ],
+        "left_ankle": [
+          1017,
+          857
+        ],
+        "right_knee": [
+          844,
+          724
+        ],
+        "right_ankle": [
+          783,
+          816
+        ],
+        "racket_head": [
+          1276,
+          599
+        ]
+      }
+    },
+    {
+      "time": 29.5,
+      "points": {
+        "pelvis": [
+          957,
+          583
+        ],
+        "left_shoulder": [
+          1064,
+          468
+        ],
+        "right_shoulder": [
+          1157,
+          359
+        ],
+        "head": [
+          1119,
+          356
+        ],
+        "left_elbow": [
+          1073,
+          483
+        ],
+        "left_wrist": [
+          1128,
+          501
+        ],
+        "right_elbow": [
+          1208,
+          441
+        ],
+        "right_wrist": [
+          1213,
+          556
+        ],
+        "left_knee": [
+          1045,
+          776
+        ],
+        "left_ankle": [
+          1051,
+          878
+        ],
+        "right_knee": [
+          810,
+          727
+        ],
+        "right_ankle": [
+          752,
+          813
+        ],
+        "racket_head": [
+          1181,
+          735
+        ]
+      }
+    },
+    {
+      "time": 30,
+      "points": {
+        "pelvis": [
+          980,
+          630
+        ],
+        "left_shoulder": [
+          1085,
+          476
+        ],
+        "right_shoulder": [
+          1154,
+          436
+        ],
+        "head": [
+          1160,
+          421
+        ],
+        "left_elbow": [
+          971,
+          563
+        ],
+        "left_wrist": [
+          896,
+          639
+        ],
+        "right_elbow": [
+          1181,
+          554
+        ],
+        "right_wrist": [
+          1181,
+          689
+        ],
+        "left_knee": [
+          1049,
+          785
+        ],
+        "left_ankle": [
+          1069,
+          896
+        ],
+        "right_knee": [
+          884,
+          646
+        ],
+        "right_ankle": [
+          686,
+          774
+        ],
+        "racket_head": [
+          1090,
+          828
+        ]
+      }
+    },
+    {
+      "time": 31,
+      "points": {
+        "pelvis": [
+          1000,
+          660
+        ],
+        "left_shoulder": [
+          1069,
+          518
+        ],
+        "right_shoulder": [
+          1125,
+          575
+        ],
+        "head": [
+          1121,
+          486
+        ],
+        "left_elbow": [
+          952,
+          539
+        ],
+        "left_wrist": [
+          829,
+          636
+        ],
+        "right_elbow": [
+          1112,
+          673
+        ],
+        "right_wrist": [
+          1098,
+          748
+        ],
+        "left_knee": [
+          1068,
+          810
+        ],
+        "left_ankle": [
+          1034,
+          948
+        ],
+        "right_knee": [
+          864,
+          780
+        ],
+        "right_ankle": [
+          699,
+          714
+        ],
+        "racket_head": [
+          1011,
+          744
+        ]
+      }
+    },
+    {
+      "time": 32,
+      "points": {
+        "pelvis": [
+          1019,
+          682
+        ],
+        "left_shoulder": [
+          1096,
+          552
+        ],
+        "right_shoulder": [
+          1136,
+          602
+        ],
+        "head": [
+          1168,
+          516
+        ],
+        "left_elbow": [
+          1050,
+          633
+        ],
+        "left_wrist": [
+          985,
+          687
+        ],
+        "right_elbow": [
+          1119,
+          695
+        ],
+        "right_wrist": [
+          1103,
+          770
+        ],
+        "left_knee": [
+          1088,
+          830
+        ],
+        "left_ankle": [
+          1035,
+          950
+        ],
+        "right_knee": [
+          969,
+          817
+        ],
+        "right_ankle": [
+          812,
+          738
+        ],
+        "racket_head": [
+          1073,
+          759
+        ]
+      }
+    },
+    {
+      "time": 33,
+      "points": {
+        "pelvis": [
+          1024,
+          682
+        ],
+        "left_shoulder": [
+          1131,
+          524
+        ],
+        "right_shoulder": [
+          1131,
+          578
+        ],
+        "head": [
+          1180,
+          466
+        ],
+        "left_elbow": [
+          1138,
+          639
+        ],
+        "left_wrist": [
+          1133,
+          693
+        ],
+        "right_elbow": [
+          1103,
+          653
+        ],
+        "right_wrist": [
+          1123,
+          703
+        ],
+        "left_knee": [
+          1081,
+          845
+        ],
+        "left_ankle": [
+          1039,
+          953
+        ],
+        "right_knee": [
+          1048,
+          779
+        ],
+        "right_ankle": [
+          986,
+          906
+        ],
+        "racket_head": [
+          1143,
+          639
+        ]
+      }
+    }
+  ],
+  "controls": {
+    "yaw": [
+      [
+        6,
+        58
+      ],
+      [
+        14.5,
+        65
+      ],
+      [
+        21.5,
+        74
+      ],
+      [
+        24.5,
+        68
+      ],
+      [
+        26,
+        40
+      ],
+      [
+        27.5,
+        5
+      ],
+      [
+        30,
+        -20
+      ],
+      [
+        33,
+        -10
+      ]
+    ],
+    "left_foot": [
+      [
+        6,
+        0,
+        28
+      ],
+      [
+        10.5,
+        0,
+        28
+      ],
+      [
+        13.5,
+        -12,
+        0
+      ],
+      [
+        20.5,
+        -25,
+        0
+      ],
+      [
+        23.5,
+        -25,
+        -16
+      ],
+      [
+        25.5,
+        -20,
+        -32
+      ],
+      [
+        28,
+        -15,
+        -35
+      ],
+      [
+        30,
+        -10,
+        -25
+      ],
+      [
+        31,
+        0,
+        0
+      ],
+      [
+        33,
+        0,
+        0
+      ]
+    ],
+    "right_foot": [
+      [
+        6,
+        -95,
+        0
+      ],
+      [
+        15.5,
+        -95,
+        0
+      ],
+      [
+        22.5,
+        -82,
+        -6
+      ],
+      [
+        24.5,
+        -65,
+        -16
+      ],
+      [
+        26,
+        -45,
+        -32
+      ],
+      [
+        28,
+        -30,
+        -36
+      ],
+      [
+        30,
+        -15,
+        -20
+      ],
+      [
+        31,
+        0,
+        -5
+      ],
+      [
+        33,
+        0,
+        0
+      ]
+    ],
+    "racket_roll": [
+      [
+        6,
+        0
+      ],
+      [
+        13.5,
+        0
+      ],
+      [
+        16.5,
+        55
+      ],
+      [
+        19.5,
+        88
+      ],
+      [
+        23.5,
+        0
+      ],
+      [
+        25.5,
+        25
+      ],
+      [
+        26.5,
+        5
+      ],
+      [
+        27,
+        80
+      ],
+      [
+        27.5,
+        85
+      ],
+      [
+        29,
+        10
+      ],
+      [
+        31,
+        35
+      ],
+      [
+        33,
+        0
+      ]
+    ],
+    "contact_twist": [
+      [
+        6,
+        0
+      ],
+      [
+        23.5,
+        0
+      ],
+      [
+        25.5,
+        0.25
+      ],
+      [
+        27.083333333333336,
+        1
+      ],
+      [
+        28,
+        1
+      ],
+      [
+        31,
+        0
+      ],
+      [
+        33,
+        0
+      ]
+    ]
+  },
+  "phases": [
+    {
+      "time": 6,
+      "label": "Set"
+    },
+    {
+      "time": 8.8,
+      "label": "Toss"
+    },
+    {
+      "time": 14.5,
+      "label": "Load"
+    },
+    {
+      "time": 24.6,
+      "label": "Racquet drop"
+    },
+    {
+      "time": 26.85,
+      "label": "Contact"
+    },
+    {
+      "time": 27.6,
+      "label": "Follow-through"
+    },
+    {
+      "time": 32,
+      "label": "Recover"
+    }
+  ],
+  "camera": {
+    "right": [
+      0.2198927185236567,
+      0.0,
+      0.975524060359495
+    ],
+    "up": [
+      0.14464066598559544,
+      0.9889469622650096,
+      -0.03260342880822849
+    ],
+    "origin_px": [
+      790.0,
+      984.0
+    ],
+    "pixels_per_metre": 350.0,
+    "pan_offsets_px": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        -1,
+        4
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -7,
+        3
+      ],
+      [
+        -11,
+        3
+      ],
+      [
+        -16,
+        3
+      ],
+      [
+        -22,
+        4
+      ],
+      [
+        -28,
+        6
+      ],
+      [
+        -36,
+        7
+      ],
+      [
+        -43,
+        8
+      ],
+      [
+        -51,
+        8
+      ],
+      [
+        -59,
+        6
+      ],
+      [
+        -71,
+        3
+      ],
+      [
+        -85,
+        2
+      ],
+      [
+        -105,
+        -1
+      ],
+      [
+        -126,
+        -3
+      ],
+      [
+        -148,
+        -6
+      ],
+      [
+        -162,
+        -8
+      ],
+      [
+        -165,
+        -8
+      ],
+      [
+        -168,
+        -8
+      ],
+      [
+        -169,
+        -8
+      ],
+      [
+        -169,
+        -8
+      ],
+      [
+        -170,
+        -9
+      ],
+      [
+        -170,
+        -10
+      ],
+      [
+        -170,
+        -11
+      ],
+      [
+        -170,
+        -12
+      ],
+      [
+        -171,
+        -14
+      ],
+      [
+        -172,
+        -22
+      ],
+      [
+        -176,
+        -24
+      ],
+      [
+        -181,
+        -25
+      ]
+    ]
+  }
+}

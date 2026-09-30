@@ -1,0 +1,40 @@
+test_curves_preserve_keys_and_are_acceleration_continuous (test_constraints.ConstraintTests.test_curves_preserve_keys_and_are_acceleration_continuous) ... ok
+test_different_frame_rates_scales_and_durations (test_constraints.ConstraintTests.test_different_frame_rates_scales_and_durations) ... ok
+test_forearm_limits_and_nonunit_rotations_are_checked (test_constraints.ConstraintTests.test_forearm_limits_and_nonunit_rotations_are_checked) ... ok
+test_grip_is_constant_while_wrist_and_forearm_move (test_constraints.ConstraintTests.test_grip_is_constant_while_wrist_and_forearm_move) ... ok
+test_rejects_old_independent_racket_rotation (test_constraints.ConstraintTests.test_rejects_old_independent_racket_rotation) ... ok
+test_rejects_smoothing_that_changes_contact_pose (test_constraints.ConstraintTests.test_rejects_smoothing_that_changes_contact_pose) ... ok
+test_serve_api_and_export_keep_racket_parent (test_constraints.ConstraintTests.test_serve_api_and_export_keep_racket_parent) ... ok
+test_serve_final_pose_checks (test_constraints.ConstraintTests.test_serve_final_pose_checks) ... ok
+test_shoulder_coordinates_round_trip (test_constraints.ConstraintTests.test_shoulder_coordinates_round_trip) ... ok
+test_unreachable_target_is_rejected_and_tracking_error_is_detected (test_constraints.ConstraintTests.test_unreachable_target_is_rejected_and_tracking_error_is_detected) ... ok
+test_bvh_has_consistent_channel_and_frame_counts (test_engine.ExportTests.test_bvh_has_consistent_channel_and_frame_counts) ... ok
+test_gltf_embedded_animation_round_trip (test_engine.ExportTests.test_gltf_embedded_animation_round_trip) ... ok
+test_all_motion_families (test_engine.GeometryTests.test_all_motion_families) ... ok
+test_bad_species_motion_and_short_jump (test_engine.GeometryTests.test_bad_species_motion_and_short_jump) ... ok
+test_evaluator_catches_corruption (test_engine.GeometryTests.test_evaluator_catches_corruption) ... ok
+test_generator_is_deterministic (test_engine.GeometryTests.test_generator_is_deterministic) ... ok
+test_ik_lengths_reach_and_singularities (test_engine.GeometryTests.test_ik_lengths_reach_and_singularities) ... ok
+test_jump_airborne_acceleration (test_engine.GeometryTests.test_jump_airborne_acceleration) ... ok
+test_rotation_convention (test_engine.GeometryTests.test_rotation_convention) ... ok
+test_stance_contacts_do_not_skate (test_engine.GeometryTests.test_stance_contacts_do_not_skate) ... ok
+test_walk_root_has_no_support_switch_cusps (test_engine.GeometryTests.test_walk_root_has_no_support_switch_cusps) ... ok
+test_define_pose_and_joint_limits (test_engine.InterfaceTests.test_define_pose_and_joint_limits) ... ok
+test_http_roundtrip_and_origin_guard (test_engine.InterfaceTests.test_http_roundtrip_and_origin_guard) ... ok
+test_mcp_invalid_json (test_engine.InterfaceTests.test_mcp_invalid_json) ... ok
+test_mcp_lifecycle_tool_list_and_errors (test_engine.InterfaceTests.test_mcp_lifecycle_tool_list_and_errors) ... ok
+test_mcp_subprocess_generates_a_persisted_clip (test_engine.InterfaceTests.test_mcp_subprocess_generates_a_persisted_clip) ... ok
+test_persistence_pagination_and_export (test_engine.InterfaceTests.test_persistence_pagination_and_export) ... ok
+test_validation_rejects_nan_unknowns_and_out_of_range (test_engine.InterfaceTests.test_validation_rejects_nan_unknowns_and_out_of_range) ... ok
+test_passive_dynamics_is_finite_contacting_and_repeatable (test_engine.PhysicsTests.test_passive_dynamics_is_finite_contacting_and_repeatable) ... ok
+test_extended_knee_and_vertical_foot_have_no_axis_flip (test_recorded.RecordedServeTests.test_extended_knee_and_vertical_foot_have_no_axis_flip) ... ok
+test_knees_bend_forward_throughout_serve_and_interpolation (test_recorded.RecordedServeTests.test_knees_bend_forward_throughout_serve_and_interpolation) ... ok
+test_no_euler_wrap_jump_and_source_not_mutated (test_recorded.RecordedServeTests.test_no_euler_wrap_jump_and_source_not_mutated) ... ok
+test_preserves_measured_racket_path_and_string_plane (test_recorded.RecordedServeTests.test_preserves_measured_racket_path_and_string_plane) ... ok
+test_scaling_keeps_native_timing_and_fixed_grip (test_recorded.RecordedServeTests.test_scaling_keeps_native_timing_and_fixed_grip) ... ok
+test_tool_persistence_attribution_and_exports (test_recorded.RecordedServeTests.test_tool_persistence_attribution_and_exports) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 9.681s
+
+OK

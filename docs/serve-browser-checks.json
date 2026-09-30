@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Serve available in movement list",
+    "Generated using shared engine",
+    "26-joint rig loaded",
+    "Final constraints passed",
+    "Fractional playback and scrubbing",
+    "glTF preserves hand-to-racket parent",
+    "Ball exported",
+    "Take survives reload",
+    "No browser runtime errors"
+  ],
+  "errors": []
+}

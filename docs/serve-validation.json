@@ -1,0 +1,39 @@
+{
+  "status": "checks_passed",
+  "checks": {
+    "bone_lengths": true,
+    "joint_limits": true,
+    "ground_clearance": true,
+    "contact_sliding": true,
+    "rotation_integrity": true,
+    "fk_consistency": true,
+    "rigid_grip": true,
+    "target_tracking": true,
+    "pinned_poses": true,
+    "ball_contact": true
+  },
+  "metrics": {
+    "max_bone_length_error_m": 6.661338147750939e-16,
+    "max_ground_penetration_m": 0.0010915677027284708,
+    "stance_foot_slip_p95_m_s": 9.992007221626444e-14,
+    "stance_foot_slip_max_m_s": 2.398081733190219e-13,
+    "joint_limit_violations_sample": [],
+    "root_jerk_rms_m_s3": 142.3686825756495,
+    "mean_com_to_nearest_contact_m": 0.23396224037189467,
+    "max_fk_error_m": 0.0,
+    "max_grip_position_error_m": 0.0,
+    "max_grip_rotation_error_deg": 7.111936473907612e-15,
+    "max_attachment_point_error_m": 0.0,
+    "max_target_error_m": 8.675560052622147e-16,
+    "max_pinned_pose_error_deg": 1.590277340731758e-15,
+    "missing_attachments": [],
+    "ball_surface_gap_at_contact_m": 4.85722573273506e-17,
+    "ball_contact_position_error_m": 4.449557262054371e-16
+  },
+  "sample_count": 1009,
+  "scope": "Geometric and kinematic checks only. Passing is not evidence of physical balance or anatomical accuracy.",
+  "dynamics": {
+    "available": false,
+    "reason": "Procedural reference trajectory; forces and torques were not simulated."
+  }
+}

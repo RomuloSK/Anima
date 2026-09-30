@@ -1,0 +1,29 @@
+{
+  "status": "ready",
+  "quality": {
+    "status": "checks_passed",
+    "issues": [],
+    "unknown_checks": [
+      "joint_limits",
+      "contact_sliding"
+    ],
+    "metrics": {
+      "max_bone_length_error_m": 3.219646771412954e-15,
+      "max_ground_penetration_m": 0,
+      "max_grip_position_error_m": 0.0,
+      "ball_contact_position_error_m": 4.440892098500626e-16,
+      "maximum_rotation_step_deg": 12.98400980777427,
+      "minimum_knee_forward_alignment": 0.7068959967313214
+    },
+    "scope": "Geometric and kinematic checks only. Passing is not evidence of physical balance or anatomical accuracy.",
+    "next_tool": "finish_animation"
+  },
+  "lifting_report": {
+    "median_reprojection_error_px": 8.330485742822322,
+    "maximum_reprojection_error_px": 87.96237342099408,
+    "solver_converged_frames": 26,
+    "observed_frames": 31,
+    "scope": "Fit to supplied image points, not calibrated 3D accuracy. Single-view depth remains inferred."
+  },
+  "elapsed_seconds": 8.392
+}

@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "Desktop WebGL preview",
+    "Desktop no horizontal overflow",
+    "Canine has four contact tracks",
+    "Generate wave through UI",
+    "Timeline scrub updates displayed time",
+    "Skeleton camera and overlay controls",
+    "Tool console calls real IK and reports unreachable target",
+    "MCP configuration populated",
+    "BVH download contains motion",
+    "MuJoCo dynamics through UI",
+    "Persistence after reload",
+    "Mobile no horizontal overflow",
+    "Mobile subject switch",
+    "No JavaScript runtime errors"
+  ],
+  "errors": [],
+  "desktop": {
+    "width": 1440,
+    "height": 1000
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844
+  }
+}

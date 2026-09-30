@@ -1,0 +1,36 @@
+{
+  "status": "ready",
+  "files": [
+    {
+      "format": "mp4",
+      "status": "ready",
+      "bytes": 2892755,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 855,
+      "duration": 14.25,
+      "verified": "First-frame readback, frame count, stream format and complete FFmpeg decoding.",
+      "playback": "Estimated/reference speed, then quarter-speed replay from a second angle."
+    }
+  ],
+  "quality": {
+    "status": "checks_passed",
+    "issues": [],
+    "unknown_checks": [
+      "joint_limits",
+      "contact_sliding"
+    ],
+    "metrics": {
+      "max_bone_length_error_m": 1.1102230246251565e-15,
+      "max_ground_penetration_m": 0,
+      "max_grip_position_error_m": 0.0,
+      "ball_contact_position_error_m": 5.8167634697480146e-15,
+      "maximum_rotation_step_deg": 16.691527972983693,
+      "minimum_knee_forward_alignment": 0.7069365618739331
+    },
+    "scope": "Geometric and kinematic checks only. Passing is not evidence of physical balance or anatomical accuracy.",
+    "next_tool": "finish_animation"
+  },
+  "next_step": "Deliver the returned files."
+}

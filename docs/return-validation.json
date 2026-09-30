@@ -1,0 +1,75 @@
+{
+  "return": {
+    "status": "checks_passed",
+    "issues": [],
+    "unknown_checks": [
+      "joint_limits",
+      "contact_sliding"
+    ],
+    "metrics": {
+      "max_bone_length_error_m": 7.771561172376096e-16,
+      "max_ground_penetration_m": 0,
+      "max_grip_position_error_m": 0.0,
+      "minimum_arm_torso_clearance_bound_m": 0.002079815852075763,
+      "arm_joint_limit_violations": [],
+      "ball_contact_position_error_m": 2.432376777795247e-15,
+      "maximum_rotation_step_deg": 4.13383975007913,
+      "maximum_chest_relative_elbow_speed_m_s": 3.9139655496328616,
+      "minimum_knee_forward_alignment": 0.9865462452141445
+    },
+    "scope": "Geometric and kinematic checks only. Passing is not evidence of physical balance or anatomical accuracy.",
+    "next_tool": "finish_animation"
+  },
+  "recipe_source": {
+    "performer": "Serve + Return",
+    "serve": {
+      "file": "52102.webm",
+      "segment_seconds": [
+        6,
+        33
+      ],
+      "performer": "Alexander Zverev",
+      "processing": "Manual screen-space tracing, camera-pan compensation, constrained 3-D lifting; no motion capture from another performer."
+    },
+    "return": {
+      "type": "procedural_return_preset",
+      "performer": "Synthetic forehand return",
+      "guidance": [
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/improve-your-tennis-game--get-your-forehand-flowing.html",
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-techniques--the-return-game.html"
+      ],
+      "note": "Authored coordinated preset, not player motion capture or extracted video."
+    }
+  },
+  "ball_physics": {
+    "gravity": 9.81,
+    "service_bounce": [
+      -1.0555027267906805,
+      0.0335,
+      17.59330732635337
+    ],
+    "return_contact": [
+      -2.0364304861158367,
+      1.4782817594898234,
+      23.250750550805222
+    ],
+    "return_bounce": [
+      2.9,
+      0.0335,
+      2.9
+    ],
+    "rebound_coefficient": 0.8527231048686787,
+    "incoming_velocity": [
+      -5.605301481858034,
+      -3.616771805023428,
+      32.328246996867726
+    ],
+    "outgoing_velocity": [
+      4.613486435622278,
+      3.8980866733739963,
+      -19.019393038135725
+    ],
+    "serve_net_clearance_m": 0.34366903988741593,
+    "return_net_clearance_m": 1.1541946699505972
+  }
+}

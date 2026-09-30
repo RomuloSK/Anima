@@ -1,0 +1,19 @@
+test_all_builtin_recipes_work_through_the_same_director (test_guided.GuidedWorkflowTests.test_all_builtin_recipes_work_through_the_same_director) ... ok
+test_authored_serve_retiming_retains_exact_contact_pose (test_guided.GuidedWorkflowTests.test_authored_serve_retiming_retains_exact_contact_pose) ... ok
+test_corrupt_cached_geometry_is_blocked_and_revision_restores_recipe (test_guided.GuidedWorkflowTests.test_corrupt_cached_geometry_is_blocked_and_revision_restores_recipe) ... ok
+test_director_responses_are_bounded_and_unknown_checks_honest (test_guided.GuidedWorkflowTests.test_director_responses_are_bounded_and_unknown_checks_honest) ... ok
+test_export_files_real_and_grip_parented_in_gltf (test_guided.GuidedWorkflowTests.test_export_files_real_and_grip_parented_in_gltf) ... ok
+test_guided_mcp_discovery_creation_and_hidden_advanced_tools (test_guided.GuidedWorkflowTests.test_guided_mcp_discovery_creation_and_hidden_advanced_tools) ... ok
+test_invalid_input_and_floor_penetration_save_nothing (test_guided.GuidedWorkflowTests.test_invalid_input_and_floor_penetration_save_nothing) ... ok
+test_missing_video_dependencies_never_report_ready (test_guided.GuidedWorkflowTests.test_missing_video_dependencies_never_report_ready) ... ok
+test_reference_recipe_reproduces_accepted_geometry_and_ball (test_guided.GuidedWorkflowTests.test_reference_recipe_reproduces_accepted_geometry_and_ball) ... ok
+test_retarget_tempo_and_heading_preserve_release_constraints (test_guided.GuidedWorkflowTests.test_retarget_tempo_and_heading_preserve_release_constraints) ... ok
+test_manifest_import_reconstructs_the_accepted_take (test_guided.ReferenceImportTests.test_manifest_import_reconstructs_the_accepted_take) ... ok
+test_reference_manifest_rejects_bad_observations_and_event_order (test_guided.ReferenceImportTests.test_reference_manifest_rejects_bad_observations_and_event_order) ... ok
+test_screen_space_camera_and_nonfinite_data_are_rejected (test_guided.ReferenceImportTests.test_screen_space_camera_and_nonfinite_data_are_rejected) ... ok
+test_screen_space_import_lifts_depth_inside_engine (test_guided.ReferenceImportTests.test_screen_space_import_lifts_depth_inside_engine) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 38.649s
+
+OK

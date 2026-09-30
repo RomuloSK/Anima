@@ -1,0 +1,23 @@
+{
+  "version": "0.4.0",
+  "tests_run": 49,
+  "passed": 48,
+  "skipped": 1,
+  "skip_reason": "Optional MuJoCo dependency is absent.",
+  "status": "passed",
+  "accepted_reference_reproduction_max_position_error_m": 8.649425188804615e-15,
+  "fitted_reference_reproduction_max_position_error_m": 2.482534153247273e-16,
+  "qwen_benchmarked": false,
+  "browser_ui_checked": "JavaScript syntax only; native renderer visually reviewed.",
+  "final_guided_tests_passed": 14,
+  "camera_bounds": {
+    "zverev_serve": {
+      "frames": 855,
+      "maximum_body_screen_coordinate": 0.9101305770178829
+    },
+    "human_walk": {
+      "frames": 1245,
+      "maximum_body_screen_coordinate": 0.8063170749095234
+    }
+  }
+}

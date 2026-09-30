@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-29",
+  "version": "0.3.1",
+  "tests": 35,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "command": "PYTHONPATH=../.deps:. python -m unittest discover -s tests -v"
+}

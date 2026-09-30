@@ -1,0 +1,20 @@
+test_api_animation_and_exports_use_the_same_gates (test_biomechanics.BodyInterfaceTests.test_api_animation_and_exports_use_the_same_gates) ... ok
+test_catalog_is_complete_and_read_only_preview_saves_nothing (test_biomechanics.BodyInterfaceTests.test_catalog_is_complete_and_read_only_preview_saves_nothing) ... ok
+test_errors_do_not_save_partial_assets (test_biomechanics.BodyInterfaceTests.test_errors_do_not_save_partial_assets) ... ok
+test_combined_trunk_neck_and_wrist_end_ranges (test_biomechanics.CoupledBodyTests.test_combined_trunk_neck_and_wrist_end_ranges) ... ok
+test_constraints_come_from_rotations_not_forged_metadata (test_biomechanics.CoupledBodyTests.test_constraints_come_from_rotations_not_forged_metadata) ... ok
+test_girdle_is_required_for_overhead_elevation (test_biomechanics.CoupledBodyTests.test_girdle_is_required_for_overhead_elevation) ... ok
+test_knee_changes_hip_and_ankle_envelopes (test_biomechanics.CoupledBodyTests.test_knee_changes_hip_and_ankle_envelopes) ... ok
+test_preview_identifies_chest_collision (test_biomechanics.CoupledBodyTests.test_preview_identifies_chest_collision) ... ok
+test_profile_settings_are_immutable_and_cannot_widen_mobility (test_biomechanics.CoupledBodyTests.test_profile_settings_are_immutable_and_cannot_widen_mobility) ... ok
+test_smooth_motion_retimes_instead_of_clamping_samples (test_biomechanics.CoupledBodyTests.test_smooth_motion_retimes_instead_of_clamping_samples) ... ok
+test_unrepresented_joint_axes_are_rejected (test_biomechanics.CoupledBodyTests.test_unrepresented_joint_axes_are_rejected) ... ok
+test_whole_curve_is_checked_not_only_keyframes (test_biomechanics.CoupledBodyTests.test_whole_curve_is_checked_not_only_keyframes) ... ok
+test_authored_serve_works_after_selecting_a_body_profile (test_biomechanics.InterpolationRegressionTests.test_authored_serve_works_after_selecting_a_body_profile) ... ok
+test_dense_retiming_spline_keeps_samples_and_continuous_acceleration (test_biomechanics.InterpolationRegressionTests.test_dense_retiming_spline_keeps_samples_and_continuous_acceleration) ... ok
+test_foot_path_matches_stance_velocity_and_acceleration_at_seams (test_biomechanics.InterpolationRegressionTests.test_foot_path_matches_stance_velocity_and_acceleration_at_seams) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 5.280s
+
+OK

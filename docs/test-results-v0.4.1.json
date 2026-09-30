@@ -1,0 +1,9 @@
+{
+  "version": "0.4.1",
+  "tests_run": 61,
+  "passed": 60,
+  "skipped": 1,
+  "failed": 0,
+  "date": "2026-09-30",
+  "optional_skip": "MuJoCo unavailable"
+}

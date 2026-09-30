@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "controls": 35,
+  "tool_forms": 22,
+  "dependent_bounds": true,
+  "animation_created": true,
+  "raw_mode_round_trip": true,
+  "mcp_profiles": true,
+  "mobile_overflow_px": 0,
+  "js_errors": []
+}

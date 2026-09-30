@@ -1,0 +1,41 @@
+{
+  "clip_id": "clip_e5f9af095b694b10",
+  "status": "ready",
+  "files": [
+    {
+      "format": "mp4",
+      "status": "ready",
+      "path": "/workspace/scratch/48c9abfbc3e2/return-shot/final-project/exports/clip_e5f9af095b694b10.mp4",
+      "bytes": 1965606,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 777,
+      "duration": 12.95,
+      "verified": "First-frame readback, frame count, stream format and complete FFmpeg decoding.",
+      "playback": "Estimated/reference speed, then quarter-speed replay from a second angle."
+    }
+  ],
+  "quality": {
+    "status": "checks_passed",
+    "issues": [],
+    "unknown_checks": [
+      "joint_limits",
+      "contact_sliding"
+    ],
+    "metrics": {
+      "max_bone_length_error_m": 2.0539125955565396e-15,
+      "max_ground_penetration_m": 0,
+      "max_grip_position_error_m": 0.0,
+      "minimum_arm_torso_clearance_bound_m": 0.002079815852076415,
+      "arm_joint_limit_violations": [],
+      "ball_contact_position_error_m": 0.0,
+      "maximum_rotation_step_deg": 4.13383975007913,
+      "maximum_chest_relative_elbow_speed_m_s": 3.91396554963286,
+      "minimum_knee_forward_alignment": 0.9865462452141438
+    },
+    "scope": "Geometric and kinematic checks only. Passing is not evidence of physical balance or anatomical accuracy.",
+    "next_tool": "finish_animation"
+  },
+  "next_step": "Deliver the returned files."
+}

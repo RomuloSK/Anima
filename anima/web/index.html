@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#eff0e9"><title>Anima — Motion lab</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="Anima home"><svg width="31" height="33" viewBox="0 0 31 33" fill="none"><path d="M4 29 15.5 4 27 29M9 19h13" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="15.5" cy="27" r="3" fill="#d4ee98"/></svg><span>anima<span class="brand-dot">.</span></span><small>MOTION LAB</small></a>
+  <nav><button class="nav-button active" id="studio-tab">Studio</button><button class="nav-button" id="open-body">Body controls</button><button class="nav-button" id="open-tools">Complete API <span>↗</span></button></nav>
+  <div class="top-actions"><span class="connection"><i></i><span id="connection">Connecting</span></span><button class="button quiet" id="connect-llm">Connect an LLM</button><button class="button dark" id="export-open">Export <span>↗</span></button></div>
+</header>
+<main class="workspace">
+  <aside class="sidebar">
+    <div class="panel-heading"><span class="eyebrow">01 / COMPOSE</span><span class="version">v0.5</span></div>
+    <h1>Give motion<br>a starting point.</h1><p class="subtle introduction">Build a subject. Shape a movement.<br>Inspect every frame.</p>
+    <section class="form-section"><div class="section-label">Subject <span id="joint-count">22 joints</span></div>
+      <div class="species-grid"><button class="species active" data-species="human"><svg viewBox="0 0 40 43"><circle cx="20" cy="6" r="4"/><path d="M20 13v14M9 19l11-6 11 6M20 27l-8 12m8-12 8 12"/></svg><span>Human</span></button><button class="species" data-species="dog"><svg viewBox="0 0 50 43"><path d="m6 14 4 9h23l7-10 5 4-4 8-8-2M12 23l-2 16m9-16 2 16m12-16 3 16M6 14 3 7"/></svg><span>Canine</span></button></div>
+      <select id="character-select" aria-label="Saved character"></select>
+      <details class="rig-details"><summary>Character proportions <span>+</span></summary><div class="two-fields"><label><span id="height-label">Height · m</span><input type="number" id="height" min="0.3" max="2.5" step="0.05" value="1.75"></label><label>Mass · kg<input type="number" id="mass" min="1" max="250" value="75"></label></div><button class="button full quiet" id="create-rig">Create character</button></details>
+    </section>
+    <section class="form-section"><div class="section-label">Movement <span>Procedural</span></div><div class="motion-grid" id="motion-grid"></div></section>
+    <section class="form-section parameters">
+      <label class="range-label" for="speed">Travel speed <output id="speed-value">1.2 m/s</output></label><input type="range" id="speed" min="0.1" max="4" step="0.1" value="1.2">
+      <label class="range-label" for="duration">Duration <output id="duration-value">4.0 s</output></label><input type="range" id="duration" min="2" max="12" step="0.5" value="4">
+      <label class="range-label" for="stride">Stride scale <output id="stride-value">1.00×</output></label><input type="range" id="stride" min="0.5" max="1.35" step="0.05" value="1">
+      <label class="range-label jump-control" for="jump-height" hidden>Jump height <output id="jump-height-value">0.3 m</output></label><input class="jump-control" type="range" id="jump-height" min=".1" max=".8" step=".05" value=".3" hidden>
+    </section>
+    <button class="button generate" id="generate"><span class="spark">✳</span> Generate motion <span>↗</span></button><p class="tiny local-note">Deterministic generation. No API key needed.</p>
+  </aside>
+  <section class="stage-column">
+    <div class="stage-heading"><div><span class="eyebrow">02 / OBSERVE</span><h2 id="clip-title">Human walk</h2></div><div class="view-buttons"><button class="icon-button" id="reset-view" title="Reset camera" aria-label="Reset camera"><svg width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="currentColor"><circle cx="10" cy="10" r="6"/><path d="M10 0v5m0 10v5M0 10h5m10 0h5"/></svg></button><select id="camera-view" aria-label="Camera view"><option value="perspective">Perspective</option><option value="front">Front</option><option value="side">Side</option><option value="top">Top</option></select></div></div>
+    <div id="viewport"><div id="render-error" hidden></div>
+      <div class="viewport-label"><span class="live-dot"></span><span id="backend-label">PROCEDURAL REFERENCE</span></div>
+      <div class="viewport-settings"><button class="pill active" id="solid-view">Solid</button><button class="pill" id="skeleton-view">Skeleton</button></div>
+      <div class="axis-key"><span class="axis-y">Y</span><span class="axis-z">Z</span><span class="axis-x">X</span><small>METRES</small></div>
+      <div class="viewport-bottom"><span>Drag to orbit <b>·</b> Scroll to zoom</span><button class="pill" id="follow-camera" aria-pressed="true">Follow subject <span>●</span></button></div>
+    </div>
+    <div class="timeline">
+      <div class="transport"><div class="playback-controls"><button class="icon-button" id="restart" aria-label="Restart">↤</button><button class="play-button" id="play" aria-label="Pause">Ⅱ</button><select id="playback-speed" aria-label="Playback speed"><option value=".25">0.25×</option><option value=".5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></div><span class="timecode"><strong id="time-current">00:00.00</strong><span>/</span><span id="time-total">00:04.00</span></span><span class="frame-indicator" id="frame-label">FRAME 0000 / 0240</span></div>
+      <div class="scrubber-wrap"><input type="range" id="scrubber" aria-label="Animation time" min="0" max="240" step="1" value="0"><div class="timeline-ticks" id="timeline-ticks"></div></div>
+      <div id="contact-tracks"></div><div class="timeline-footer"><span><i class="contact-dot"></i>Declared foot contact</span><span id="sample-rate">60 FPS</span></div>
+    </div>
+  </section>
+  <aside class="inspector">
+    <div class="panel-heading"><span class="eyebrow">03 / INSPECT</span><button class="icon-button" id="refresh" title="Reload saved assets" aria-label="Reload saved assets">↻</button></div>
+    <h2>Motion health</h2><p class="subtle small">Measured from the generated frames.</p>
+    <div class="check-badge" id="check-status">Checking motion…</div><div id="metrics"></div><p class="tiny diagnostic-note">These checks measure geometry and motion. They do not certify balance or anatomical accuracy.</p>
+    <div class="inspector-divider"></div><div class="section-label">View overlays</div><label class="toggle-row"><span>Ground grid</span><input id="show-grid" type="checkbox" checked></label><label class="toggle-row"><span>Contact markers</span><input id="show-contacts" type="checkbox" checked></label><label class="toggle-row"><span>Estimated center of mass</span><input id="show-com" type="checkbox"></label>
+    <div class="inspector-divider"></div><div class="section-label">Dynamics lab <span class="beta">EXPERIMENTAL</span></div><p class="subtle small">Drop the rig into a real physics simulation. No balance controller.</p><button class="button full quiet" id="simulate">Run passive dynamics <span>↗</span></button><p class="tiny" id="physics-status">Checking MuJoCo…</p>
+    <div class="inspector-divider"></div><div class="section-label">Recent takes <span id="take-count"></span></div><div id="clip-list"></div>
+  </aside>
+</main>
+<footer class="app-footer"><span><i></i>LOCAL WORKSPACE</span><span>Synthetic rigs · Inspectable motion · Open tool interface</span><span id="footer-version">ANIMA / 0.5.0</span></footer>
+<div id="toast" role="status" hidden></div>
+<dialog id="tools-dialog"><div class="dialog-heading"><div><span class="eyebrow">LLM TOOL INTERFACE</span><h2>One engine. Any tool-capable LLM.</h2></div><button class="icon-button close-dialog" aria-label="Close">×</button></div><p class="subtle">Try the same validated operations exposed over MCP and the local HTTP API.</p><div class="tool-layout"><div><label for="tool-select">Tool</label><select id="tool-select"></select><p class="subtle small" id="tool-description"></p><label class="toggle-row"><span>Edit raw JSON</span><input type="checkbox" id="tool-json-mode"></label><div id="tool-form"></div><textarea id="tool-args" spellcheck="false" aria-label="Arguments JSON" hidden></textarea><button class="button dark full" id="run-tool">Run tool <span>↗</span></button></div><div><label>Result</label><pre id="tool-result">Select a tool and run it to inspect its response.</pre></div></div><details><summary>Input schema</summary><pre id="tool-schema"></pre></details></dialog>
+<dialog id="connect-dialog"><div class="dialog-heading"><div><span class="eyebrow">CONNECT</span><h2>Let your LLM direct the motion.</h2></div><button class="icon-button close-dialog" aria-label="Close">×</button></div><label for="mcp-profile">API profile</label><select id="mcp-profile"><option value="all">Complete API · all tools</option><option value="guided">Guided · five recipe tools</option></select><p class="subtle">Add this server to an MCP client that supports local stdio tools. The viewer and the LLM will share saved characters and takes.</p><pre id="mcp-config"></pre><button class="button dark" id="copy-config">Copy configuration</button><p class="small subtle">The guided profile exposes five compact tools. Start with <code>list_motion_recipes</code>, then <code>create_animation</code> and <code>finish_animation</code>. Use <code>inspect_animation</code> and <code>revise_animation</code> when needed. This app does not include a language model or connect to one automatically.</p></dialog>
+<dialog id="export-dialog"><div class="dialog-heading"><div><span class="eyebrow">TAKE IT FURTHER</span><h2>Export this motion.</h2></div><button class="icon-button close-dialog" aria-label="Close">×</button></div><div class="export-options"><button data-format="mp4"><strong>MP4 video <span>↗</span></strong><small>Two camera views and a slow-motion replay. Requires the local video renderer.</small></button><button data-format="bvh"><strong>BVH <span>↗</span></strong><small>Joint animation for Blender and DCC tools. Metres, XYZ.</small></button><button data-format="gltf"><strong>glTF 2.0 <span>↗</span></strong><small>Animated skeleton and embedded data. No skinned mesh.</small></button><button data-format="json"><strong>Motion JSON <span>↗</span></strong><small>Full rig, frames, contact states, and diagnostics.</small></button><button data-format="mjcf"><strong>MuJoCo XML <span>↗</span></strong><small>Articulated rig and floor for simulation. No animation.</small></button></div></dialog>
+<dialog id="body-dialog"><div class="dialog-heading"><div><span class="eyebrow">COUPLED BODY MODEL</span><h2>Movement has dependencies.</h2></div><button class="icon-button close-dialog" aria-label="Close">×</button></div>
+<div class="body-layout"><div class="body-editor"><p class="subtle small">Change a pose. See its available range update. Add poses to build a smooth motion.</p><div id="body-options"></div><div id="body-sliders"></div><details class="body-group"><summary>Profile and timing budgets</summary><div id="body-profile-form"></div><button class="button quiet full" id="body-apply-profile">Save new profile</button></details><details class="body-group"><summary>Research and model assumptions</summary><p class="tiny" id="body-calibration"></p><div id="body-sources"></div></details></div>
+<div class="body-preview"><div id="body-viewport"></div><div class="check-badge" id="body-status" role="status">Loading controls…</div><p class="tiny" id="body-feedback"></p><div class="body-key-controls"><button class="button quiet" id="body-add-key" disabled>Add this pose</button><span class="tiny">Keyframe time · seconds</span></div><div id="body-keys"></div><button class="button dark full" id="body-animate" disabled>Create checked motion</button></div></div></dialog>
+<script type="module" src="/app.js"></script>
+</body></html>

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "version": "0.5.0",
+  "tool_count": 22,
+  "body_controls": 35,
+  "body_profile": "human_coupled_v1",
+  "checks": {
+    "bone_lengths": true,
+    "joint_limits": null,
+    "ground_clearance": true,
+    "contact_sliding": null,
+    "rotation_integrity": true,
+    "fk_consistency": true,
+    "rigid_grip": true,
+    "target_tracking": true,
+    "pinned_poses": true,
+    "arm_torso_clearance": true,
+    "arm_joint_limits": true,
+    "coupled_body_limits": true,
+    "limb_clearance": true,
+    "temporal_budgets": true,
+    "sample_timing": true,
+    "rotation_continuity": true
+  },
+  "exports": [
+    "json",
+    "gltf",
+    "bvh"
+  ],
+  "external_dependencies": false
+}

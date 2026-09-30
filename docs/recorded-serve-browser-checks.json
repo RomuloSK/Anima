@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Recorded serve available in movement list",
+    "Loaded using shared engine",
+    "24-joint reconstruction loaded",
+    "Geometry checks passed",
+    "Duration preserves native timing",
+    "Uncalibrated limits shown honestly",
+    "Fractional playback and scrubbing",
+    "Capture stops at end without loop snap",
+    "glTF preserves hand-to-racket parent",
+    "Ball exported",
+    "Take survives reload",
+    "No browser runtime errors"
+  ],
+  "errors": []
+}
